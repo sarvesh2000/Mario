@@ -195,9 +195,6 @@ public class Mario extends ApplicationAdapter {
 			if(Intersector.overlaps(manRectangle,bombRectangles.get(i))) {
 				Gdx.app.log("Bomb!", "Collision");
 				bgmusic.stop();
-				//for(int j=0;j<1000;j++);
-				//gameover.play();
-				//for(int k=0;k<1000;k++);
 				gameState = 2;
 			}
 		}
